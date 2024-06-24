@@ -7,9 +7,8 @@ services:
     restart: always
     ports:
       - '3333:3306'
-    environment:
-      - MYSQL_ROOT_PASSWORD: '123'
-      - MySQL_DATABASE: 'shop'
+    env_file:
+      - .env
 
   backend:
     build: ./backend
