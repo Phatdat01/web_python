@@ -10,6 +10,9 @@ import ReactDOM from "react-dom";
 // import ForgotPassword from "views/forgetPassword";
 
 ReactDOM.render(
-  <h1>Toi la Sieu nhan</h1>,
+  <div>
+    <h1>Toi la Sieu nhan</h1>
+    <h2>Sieu nhan Gao bien hinh</h2>
+  </div>,
   document.getElementById("root")
 );

@@ -12,4 +12,4 @@ COPY . /app
 
 EXPOSE 5000
 
-CMD ["python", "demo.py"]
+CMD ["uvicorn", "demo:app", "--reload", "--port", "5000"]

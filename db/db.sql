@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS `shop_item` (
   PRIMARY KEY (`id`)
 );
 
-INSERT INTO `shop_item` (name,locate) VALUES ('A','Ho Chi Minh'), ('B','Ha Noi');
+INSERT INTO `shop_item` (name,locate) VALUES ('A','Ho Chi Minh'), ('B','Ha Noi'),('C','Hue'),('D','Da Nang');
