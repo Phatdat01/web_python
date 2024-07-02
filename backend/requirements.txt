@@ -1,3 +1,2 @@
 mysql-connector-python
-fastapi
-uvicorn
+flask
