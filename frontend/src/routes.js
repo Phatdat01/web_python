@@ -7,3 +7,5 @@ routes = [
         component: <Dashboard/>
     }
 ]
+
+export default routes;
