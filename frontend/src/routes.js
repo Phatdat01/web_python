@@ -3,9 +3,9 @@ import mainExploreData from 'views/shop.js';
 routes = [
     {
         path:'/dashboard',
-        name:'Dashboard',
-        component: <Dashboard/>
+        name:'mainExploreData',
+        component: <mainExploreData/>
     }
 ]
 
-export default routes;
+export default routes; 
